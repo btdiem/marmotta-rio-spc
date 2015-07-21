@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="java/org/apache/marmotta/commons/sesame/rio/spc/" kind="src" path="main"/>
+	<classpathentry kind="src" path="main/java/org/apache/marmotta/commons/sesame/rio/spc"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/marmotta_dev"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/com.google.guava_1.6.0.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/ical4j-1.0.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/JRI-0.9-7.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/JRIEngine-0.9-7.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/matlabcontrol-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/openrdf-model.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/REngine-0.9-7.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/sesame-1.2.7.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/sesame-rio-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/sesame-runtime-osgi-2.7.1.jar"/>
+	<classpathentry kind="lib" path="/marmotta_dev/libs/slf4j.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
